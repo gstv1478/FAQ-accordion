@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: linear-gradient(
+    180deg,
+    rgba(174, 103, 233, 1) 0%,
+    rgba(100, 100, 230, 1) 40%
+  );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-woman-mobile {
+    height: 11em;
+    position: absolute;
+    left: 5em;
+    top: 0.875em;
+}
+
+.pattern-mobile {
+    position: absolute;
+    left:4.7em;
+    top:7.5em
+}
+
+
+
+.card{
+    background: #fff;
+    border-radius: 2em;
+    height:65vh;
+    width:90%;
+}
+
+p {
+    display: block;
+    margin: 1em 1.5em
+   
+}
+
+h1{
+    display: block;
+    
+    text-align: center;
+    margin: 4em 0 0.8em 0;
+}
