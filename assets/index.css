@@ -72,3 +72,45 @@ h1{
  .add {
     display: none;
  }
+
+ @media (min-width:500px) {
+    .img-woman-mobile,
+    .pattern-mobile{
+        display: none;
+    }
+
+    .img-woman-desktop{
+        position: relative;
+        left: -4em;
+        top: 3.5em;
+        height:18em;
+        
+    }
+
+    .pattern-desktop{
+        position: relative;
+        height: 37.5em;
+        left:-19em;
+        top:-26em;
+    }
+
+    .card{
+        display: flex;
+        overflow: hidden;
+        height: 26em;
+        margin: 0;
+        padding: 0;
+        width:55em;
+        justify-content: space-between;
+    }
+
+   .container {
+    position: relative;
+    right: 1px;
+    top: 1px;
+   }
+
+   img{
+    display: none;
+   }
+ }
