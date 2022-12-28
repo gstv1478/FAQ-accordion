@@ -59,10 +59,15 @@ h1{
     margin: 3em 0 0.3em 0;
 }
 
-.iconArrow {
+.iconOne,
+.iconTwo,
+.iconThree,
+.iconFour,
+.iconFive {
     position:relative;
     left: 18.7em ;
     top:1.1em;
+    
 }
  p {
     padding:0.7em 1.5em 0em 0;
@@ -73,7 +78,18 @@ h1{
     display: none;
  }
 
+ .img-woman-desktop,
+ .pattern-desktop,
+ .box-desktop{
+    display: none;
+ }
+
  @media (min-width:500px) {
+    .img-woman-desktop,
+ .pattern-desktop,
+ .box-desktop{
+    display: block;
+ }
     .img-woman-mobile,
     .pattern-mobile{
         display: none;
@@ -119,5 +135,11 @@ h1{
     h1 {
         margin: 1em 0 0 0.5em;
         text-align: start;
+    }
+
+    .box-desktop {
+        position: fixed;
+        margin: 9.5em -8em;
+        z-index: 1;
     }
  }
