@@ -41,7 +41,9 @@
     padding-bottom: 8em;
 }
 
-.questions,
+.questionsFive,
+.questionsFour,
+.questionsThree,
 .questionsTwo,
  .questionsOne{
     display: block;
